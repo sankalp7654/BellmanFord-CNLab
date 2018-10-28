@@ -57,6 +57,15 @@ public class Bellman {
 			}
 		}
 		
+		//Displaying the adjacency matrix
+		System.out.println("The matrix you entered");
+		
+		for(int i = 1; i <= n; i++) {
+			for(int j = 1; j <= n; j++) {
+				System.out.print(A[i][j] + " ");
+			}
+			System.out.println();
+		}
 		//Input the source
 		System.out.println("Enter the source vertex");
 		int source = scanner.nextInt();
